@@ -1,2 +1,2 @@
 # Asg1
-This is a simple repo
+Purpose of website: To showcase reviews of books
