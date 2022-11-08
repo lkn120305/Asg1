@@ -1,6 +1,6 @@
 # Asg1
 
-#Purpose of website:
+# Purpose of website
 To showcase reviews of books
 
 Login page:
