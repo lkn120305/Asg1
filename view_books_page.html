@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>BestReads ViewBooks Page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    table.a {
+      table-layout: auto;
+      width: 90%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header class="header">
+
+    <div class="header1">
+
+      <a href="index.html" class="logo"> <i class="fas fa-book"></i> BestReads</a>
+
+    </div>
+
+    <div class="header2">
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="view_books_page.html">view books</a>
+        <a href="view_my_reviews_page.html">my reviews</a>
+      </nav>
+    </div>
+
+<!-- Table to search up for books -->
+  </header>
+  <table class="a">
+    <tr>
+      <td colspan="4">
+        <form action="" class="search-form">
+          <input type="text" name="" placeholder="Find your book(s)..." id="myInput" onkeyup="searchForBooks()"
+            style="width: 95%;">
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+      </td>
+    </tr>
+    <table id="myTable" class="a">
+      <tr>
+        <th>Book Title</th>
+        <th>Author</th>
+        <th>Year</th>
+        <th>ISBN</th>
+      </tr>
+      <tr class="clickable" onclick="window.location='write_review_page_POG.html';">
+        <td id = "Book_title1">Paths of Glory</td>
+        <td>Jeffrey Archer</td>
+        <td>2009</td>
+        <td>9780312539528</td>
+      </tr>
+      <tr class="clickable" onclick="window.location='write_review_page_SWTTP.html';">
+        <td id = "Book_title2">Shall We Tell The President?</td>
+        <td>Jeffrey Archer</td>
+        <td>1977</td>
+        <td>9780340393444</td>
+      </tr>
+      <tr class="clickable" onclick="window.location='write_review_page_HYW.html';">
+        <td id = "Book_title3">Heads You Win</td>
+        <td>Jeffrey Archer</td>
+        <td>2018</td>
+        <td>9781509851263</td>
+      </tr>
+      <tr class="clickable" onclick="window.location='write_review_page_TABE.html';">
+        <td id = "Book_title4">Turn a Blind Eye</td>
+        <td>Jeffrey Archer</td>
+        <td>2021</td>
+        <td>9781250801203</td>
+      </tr>
+    </table>
+  </table>
+
+  <script src="script.js">
+
+  </script>
+
+</body>
+
+</html>

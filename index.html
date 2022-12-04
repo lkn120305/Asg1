@@ -1,115 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LKN's Book Review</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BestReads Home Page</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
+  <link rel="stylesheet" href="Normalize.css">
 </head>
+
 <body>
-    
-<header class="header">
+<!-- Navigation Bar -->
+  <header class="header">
 
     <div class="header1">
 
-        <a href="#" class="logo"> <i class="fas fa-book"></i> BestReads</a>
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="Find your book(s)..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-
-        <div class="icons">
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
+      <a href="#" class="logo"> <i class="fas fa-book"></i> BestReads</a>
 
     </div>
 
     <div class="header2">
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#my books">my books</a>
-        </nav>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="view_books_page.html">view books</a>
+        <a href="view_my_reviews_page.html">my reviews</a>
+      </nav>
     </div>
 
-</header>
+  </header>
 
-<section class="home" id="home">
+<!-- Book sliders to view some of the books, represented by the images of books, available on the website -->
+  <section class="home" id="home">
 
     <div class="row">
 
-        <div class="content">
-            <h3>Share your take on Jeffrey Archer's latest books</h3>
+      <div class="content">
+        <h3>Share your take on Jeffrey Archer's latest books</h3>
+      </div>
+      <br>
+      <div class="swiper books-slider">
+        <div class="swiper-wrapper">
+          <a href="write_review_page_POG.html" class="swiper-slide"><img src="image/book-1.jpg" alt=""></a>
+          <a href="write_review_page_SWTTP.html" class="swiper-slide"><img src="image/book-2.jpg" alt=""></a>
+          <a href="write_review_page_HYW.html" class="swiper-slide"><img src="image/book-3.jpg" alt=""></a>
+          <a href="write_review_page_TABE.html" class="swiper-slide"><img src="image/book-4.jpg" alt=""></a>
         </div>
-        <br>
-        <div class="swiper books-slider">
-            <div class="swiper-wrapper">
-                <a href="#" class="swiper-slide"><img src="image/book-1.jpg" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-2.jpg" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-5.jpg" alt=""></a>
-                <a href="#" class="swiper-slide"><img src="image/book-4.jpg" alt=""></a>
-            </div>
-        </div>
+      </div>
 
     </div>
 
-</section>
+  </section>
 
-<section class="featured" id="featured">
+<!-- Book sliders to view some of the featured books, represented by images of books, available on the website -->
+  <section class="featured" id="featured">
 
-    <h1 class="heading"> <span>Archer's Featured</span> </h1>
+    <h1 class="heading"> <span>Featured Books</span> </h1>
 
     <div class="swiper featured-slider">
 
-        <div class="swiper-wrapper">
+      <div class="swiper-wrapper">
 
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/book-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <a href="#" class="btn">view book</a>
-                </div>
-            </div>
+        <div class="swiper-slide box">
+          <div class="image">
+            <img src="image/book-1.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="write_review_page_POG.html" class="btn">view book</a>
+          </div>
+        </div>
 
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/book-6.jpg" alt="">
-                </div>
-                <div class="content">
-                    <a href="#" class="btn">view book</a>
-                </div>
-            </div>
+        <div class="swiper-slide box">
+          <div class="image">
+            <img src="image/book-2.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="write_review_page_SWTTP.html" class="btn">view book</a>
+          </div>
+        </div>
 
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/book-7.jpg" alt="">
-                </div>
-                <div class="content">
-                    <a href="#" class="btn">view book</a>
-                </div>
-            </div>
+        <div class="swiper-slide box">
+          <div class="image">
+            <img src="image/book-3.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="write_review_page_HYW.html" class="btn">view book</a>
+          </div>
+        </div>
 
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/book-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <a href="#" class="btn">view book</a>
-                </div>
-            </div>
+        <div class="swiper-slide box">
+          <div class="image">
+            <img src="image/book-4.jpg" alt="">
+          </div>
+          <div class="content">
+            <a href="write_review_page_TABE.html" class="btn">view book</a>
+          </div>
+        </div>
 
+      </div>
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+      <script src="script.js"></script>
     </div>
-
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<script src="script.js"></script>
-
+    </section>
 </body>
+
 </html>

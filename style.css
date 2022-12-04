@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+/* index.html */
 :root{
     --green:#333d30;
     --border:.1rem solid rgba(0,0,0,.1);
@@ -12,7 +13,6 @@
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none;
-    border:none;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -22,7 +22,9 @@ html{
     overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+    background: #f4f2e9;
 }
+
 
 section{
     padding:5rem 9%;
@@ -231,11 +233,212 @@ section{
     top:0; left:0; right: 0;
     background: #f4f2e9;
     z-index: 1;
-    transform: translateY(-105%);
+}
+
+/* write_review_page.html */
+.prologue-box{
+    width: 70vw;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.prologue p{
+    color: black;
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 15px;
+}
+
+.RV_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 150px
+}
+
+.rv_title{
+  text-align: center;
+  color: #f4f2e9;
+  font-size: 30px
+}
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70vw;
+  background: #333d30;
+  border: 1px solid #333d30;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container .text{
+  font-size: 25px;
+  color: #333d30;
+}
+.container .edit{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #fdfcfc;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container .edit:hover{
+  text-decoration: underline;
+}
+.container .star-widget input{
+  display: none;
+}
+.star-widget label{
+  font-size: 2.5vw;
+  color: #444;
+  padding: 1vw;
+  float: right;
+  margin-right: 7vw;
+  cursor: pointer;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+
+form .textarea{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #000000;
+  border: 1px solid #efecec;
+  background: #fdfcfc;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+}
+.textarea textarea:focus{
+  border-color: #000000;
+}
+form .btn{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+form .btn button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ffffff;
+  outline: none;
+  background: #333d30;
+  color: #a3a3a3;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+form .btn button:hover{
+  background: #f5f5f5;
+}
+
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-box{
+    width: 50vw;
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 18px;
+    text-align: right;
+}
+
+.Name span{
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment p{
+    color: black;
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 15px;
+}
+
+/* view_my_reviews_page.html & view_my_reviews.html */
+
+table {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 3rem;
+}
+
+td {
+  border-collapse: collapse;
+	border: 0.25px solid black;
+	padding: 8px;
+  height: 80px;
+}
+
+th {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+  tr[0].style.display = "none";
+  cursor:pointer
+}
+
+.checked {
+  color: #fd4;
+}
+
+.fa-star {
+  font-size: 30px;
 }
 
 
-/* media queries  */
+.mr_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Media Queries */
 
 @media (max-width:991px){
 
