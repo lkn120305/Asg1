@@ -43,7 +43,7 @@ To show reviews users themselves have written for the books so far
 - Prologue for the Paths of Glory book obtained from [Goodreads](https://www.goodreads.com/book/show/4102763-paths-of-glory)
 - Prologue for the Shall we Tell the President book obtained form [Goodreads](https://www.goodreads.com/book/show/78989.Shall_We_Tell_the_President_)
 - Prologue for the Heads you win book obtained from [Macmillan](https://us.macmillan.com/books/9781250214225/headsyouwin)
-- Prologue for the Turn a Blind eye book obtained from [Google Books](https://books.google.com.sg/books/about/Turn_a_Blind_Eye.html?id=ZL8KEAAAQBAJ&source=kp_book_description&redir_esc=y
+- Prologue for the Turn a Blind eye book obtained from [Google Books](https://books.google.com.sg/books/about/Turn_a_Blind_Eye.html?id=ZL8KEAAAQBAJ&source=kp_book_description&redir_esc=y)
 
 ### Media
 - Image for the Paths of Glory book obtained from [Amazon](https://www.amazon.sg/Paths-Glory-Jeffrey-Archer/dp/0330511661)
